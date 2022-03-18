@@ -6,7 +6,7 @@ import (
 )
 
 // go test -v stripansi_test.go stripansi.go
-func Example_Strip() {
+func ExampleStrip() {
 	fmt.Println(Strip("\x1b[38;5;140m foo\x1b[0m bar"))
 	// Output:
 	//  foo bar

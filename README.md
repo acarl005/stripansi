@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/acarl005/stripansi)](https://goreportcard.com/report/github.com/acarl005/stripansi) [![GORef](https://godoc.org/github.com/acarl005/stripansi?status.svg)](https://godoc.org/github.com/acarl005/stripansi) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Strip ANSI
 ==========
 
@@ -28,3 +30,5 @@ func main() {
 	fmt.Println(cleanMsg) // " foo bar"
 }
 ```
+## License
+This project is licensed under MIT license. Please read the [LICENSE](https://github.com/acarl005/stripansi/tree/master/LICENSE.md) file.
