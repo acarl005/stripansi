@@ -8,6 +8,7 @@ const ansi = "[\u001B\u009B][[\\]()#;?]*(?:(?:(?:[a-zA-Z\\d]*(?:;[a-zA-Z\\d]*)*)
 
 var re = regexp.MustCompile(ansi)
 
+// Strip - remove unwanted escape codes.
 func Strip(str string) string {
 	return re.ReplaceAllString(str, "")
 }
